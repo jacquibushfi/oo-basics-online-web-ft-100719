@@ -6,11 +6,7 @@ class Shoe
     @brand = brand
   end
   
-  def initialize(condition)
-    @condition = condition
-  end
-  
- def cobble
+  def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
