@@ -1,6 +1,9 @@
 class Shoe
   
-  
+  attr_reader :RUBY_RELEASE_DATE
+   def initialize(brand)
+    @brand = brand
+  end
   
 end
 
